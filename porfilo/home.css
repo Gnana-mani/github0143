@@ -1,0 +1,367 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: "poppins",sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+.header_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+    background-color: black;
+    color: rgb(247, 42, 154);
+
+}
+
+.header_navbar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+   
+
+}
+.header_navbar a:hover{
+    color: pink;
+    transition: 1px;
+
+}
+.container{
+    display: flex;
+    text-align: center;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+    background-color: antiquewhite;
+   
+    
+}
+
+.container_userdetails{
+   padding: 30px;
+    flex: 1;
+    margin-top:20px ;
+    color: black;
+}
+.hero_image{
+    flex: 1;
+    margin-top:20px ;
+    padding: 20px;}
+
+.hero_image img{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-radius: 10px;
+    
+}
+.hero_image img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;}
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column; /* stack vertically */
+    text-align: center;
+  }
+
+  .hero_image img {
+    max-width: 250px; /* smaller image on mobile */
+    margin: 0 auto;
+  }
+}
+
+
+    
+.container_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.username{
+    font-family:"poppins",sans-serif;
+    font-weight:600;
+    font-size:34px;
+    font:bold;
+    padding: 5px;
+    margin: 20px;
+}
+.fontdeveloper{
+    color: rgb(132, 130, 130);
+    padding: 5px;
+    margin: 20px;
+     font-family: "poppins",serif;
+    font-weight: 300;
+
+}
+.user_para{
+    margin-top:30px;
+   
+    font-family: "poppins",serif;
+    font-weight: 300;
+}
+
+.mailclass{
+    font-family: "poppins",serif;
+    font-weight: 300px;
+    margin-top: 10px;
+    padding:20px;
+
+}
+
+.mailclass button{
+    background-color: rgb(1, 170, 254);
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+
+}
+.about{
+    font-family: "poppins",serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+.about h1{
+    
+    text-decoration:underline;   
+}
+.about p{
+    padding: 10px;
+    margin-left:100px;
+    margin-right:100px ;
+
+}
+
+.container_about{
+   margin-top: 70px;
+    display: flex;
+    justify-content:center;
+    background-color:rgb(255, 255, 255);
+
+
+
+
+}
+.container_one{
+    padding: 40px;
+    background-color: aliceblue;
+  border: 3px black solid;
+  text-align: center;
+  border-radius: 9px;
+  font-family: "poppins",sans-serif;
+  font-weight: 100;
+  margin-left: 30px;
+
+}
+.container_one p{
+    margin-top: 10px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.container_one:hover{
+    border-color: blue;
+}
+
+.skills h1{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline black solid;
+}
+.skills{
+    margin-top:20px ;
+    text-align: center;
+}
+.container_skills{
+   padding: 20px;
+margin-top:20px;
+}
+
+.container_frontend{
+    padding:30px;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    border-radius: 8px;
+    margin-bottom:20px;
+    
+
+
+}
+.container_frontend ul li{
+    text-decoration: none;
+  background-color:rgba(190, 213, 250, 0.5);
+  
+  border-radius: 5px;
+    display: inline;
+    color: black;
+    margin-left: 20px;
+    padding:5px;
+
+
+}
+.container_frontend ul li:hover{
+    background-color: white;
+    
+}
+.container_frontend h4{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.container_backend{
+    padding:30px;
+    background-color: rgb(243, 243, 243);
+    border: 1px black solid;
+    border-radius: 8px;
+    margin-bottom:20px;}
+.Services{
+    margin-top: 50px;
+    text-align: center;
+}
+.Services h1{
+    text-decoration: underline black solid;
+}
+.Services_development{
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    border: 1px black solid;
+}
+.Services_development p{
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.Projects{
+    margin-top: 50px;
+    text-align: center;
+}
+.Projects h1{
+    text-decoration: underline black solid;
+}
+.Projects_images{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.Projects_images img{
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+.Projects_images img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.contact{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact h2{
+    text-decoration: underline black solid;
+}
+.contact p{
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.form_contact{
+    margin-top: 30px;
+    text-align: center;
+
+}  
+.form_contact form{
+    display: inline-block;
+    text-align: left;
+}
+.cmain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+    
+}
+.contact_info{
+    flex: 1;
+    padding: 100px;
+    background-color: rgba(190, 213, 250, 0.5);
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-right: 50px;
+
+}
+.form_contact{
+    flex: 1;
+    padding: 100px;
+    background-color: rgba(190, 213, 250, 0.5);
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-right: 30px;
+
+}
+.form_contact form input, .form_contact form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: "poppins",sans-serif;
+}
+.contact_info p{
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.form_contact form button{
+    background-color: rgb(1, 170, 254);
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.contact_info p br{
+    margin-bottom: 10px;
+}
+.contact_info p:hover{
+    color: blue;
+    transition: 1s;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+.contact_info h5{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: auto;
+
+
+}
+.Projects_images img{
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px; 
+
+}
+.Projects_images{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
